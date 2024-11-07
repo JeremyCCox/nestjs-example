@@ -5,5 +5,5 @@ comfortable with MaterialUI.
 ## Planned Implementations ##
 - [ ] Connect NestJS to a database (Probably MongoDB for efficiency)
 - [ ] Implement a smooth Login/Registration page
-- [ ] Authorization & JWT 
+- [x] Authorization & JWT 
 - [ ] Use MaterialUI ["React Charts"](https://mui.com/x/react-charts/) for Data Display
