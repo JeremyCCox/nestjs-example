@@ -4,14 +4,19 @@ import {
     Route,
     RouterProvider,
 } from "react-router-dom";
-import Home from "./components/Home.tsx";
-import Login from "./components/Login.tsx";
+import Home from "./pageComponents/Home.tsx";
+import Login from "./pageComponents/Login.tsx";
+import Dashboard from "./components/Dashboard.tsx";
 
 function App() {
     const router = createBrowserRouter(
         createRoutesFromElements(
-            <Route path="/" element={<Home/>}>
-                <Route path="dashboard" element={<Login />} /></Route>
+            <>
+                <Route path="/" element={<Home/>}>
+                    <Route path={'dashboard'} element={<Dashboard/>}/>
+                </Route>
+                <Route path="/login" element={<Login />} />
+            </>
         )
     );
     return (
