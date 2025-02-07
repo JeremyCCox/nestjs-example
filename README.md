@@ -7,3 +7,5 @@ comfortable with MaterialUI.
 - [ ] Implement a smooth Login/Registration page
 - [x] Authorization & JWT 
 - [ ] Use MaterialUI ["React Charts"](https://mui.com/x/react-charts/) for Data Display
+
+_This project has gone stale, and will probably be deleted_
